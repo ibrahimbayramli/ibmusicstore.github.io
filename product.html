@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0 2rem 0 2rem;
+      }
+      p {
+        text-align: justify;
+      }
+      .col-md-4 {
+        padding-top: 2rem;
+      }
+    </style>
+  </head>
+  <body style="background-color: #e9ecef">
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand text-danger font-weight-bold fon" href="index.html"
+        >Müzik Dükkanım</a
+      >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Ürünlerimiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="info.html">Hakkımızda</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <h1
+      style="
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        color: blueviolet;
+      "
+    >
+      Ürünler
+    </h1>
+
+    <div class="container" style="margin-top: 3rem">
+      <div class="row">
+        <div class="col-md-4" style="padding-top: 1rem">
+            <div class="card" style="width: 18rem">
+                <img src="https://www.do-re.com.tr/yamaha-gb1-akustik-kuyruklu-piyano-parlak-siyah-cce51c1f066f575b7d9a21f9f985bb02-12622d3632fb8eb8cb92c2028a5434e8-max-pp.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://www.do-re.com.tr/yamaha-gb1-akustik-kuyruklu-piyano-parlak-siyah-cce51c1f066f575b7d9a21f9f985bb02-12622d3632fb8eb8cb92c2028a5434e8-max-pp.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://www.do-re.com.tr/yamaha-gb1-akustik-kuyruklu-piyano-parlak-siyah-cce51c1f066f575b7d9a21f9f985bb02-12622d3632fb8eb8cb92c2028a5434e8-max-pp.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7yEE4NpGVAagsgdMzl_BW6Re_Uz-e4krV7Q&usqp=CAU" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+           
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEHBhITEBMSExUVFxcQEhcSEhUVFRcVGRkXGRUZFRUYHykgGBsmHhYVIT0hJSktLi4uFyA1ODcuNygtLjcBCgoKDg0OGw8QGi0jHyUtLTUtLS0tNy0rLy0rLS0tLjcvLS0rLTUtLy01LS4tLS0uLTUrLS0tLS0vLTgtLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcCCAEDBQT/xABEEAACAQIDBAYFCAgFBQAAAAAAAQIDEQQFIQYSMUEHEyJRYYEyQnGRsRQjU2JykqHwCDM0Q1KCstEWVKLBwhUXJERj/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAEEBQMC/8QAIREBAAIDAQADAQADAAAAAAAAAAECAwQREiFBUTETccH/2gAMAwEAAhEDEQA/ALxAAAAAAAAAAAAAAAAAKZ6btpsThM7o4WjWqUYKj8on1U5U3OUpyjFOUWnZKDdud+ehEzx6rX1PFzA182M6S8dluPo0KlWOKpVKsaXz0t6rCMpRjdVE7tq79K/BcDYMRPS1Zr/QAEvIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUc8jltP0lY2ONpvEKNKUoLrHS3KbqvqHGUGt60Lcebd72uXiU7shhqj6Rsz6mvHSDlUkoxnvOdWUt3jaDjdRtr6PLgeZe6/aB08ipf8AbX5bGnKNSniNx1lVeq30kuqvZNXWqV9OJsbs7OtUyHDvEPequnB1X2Vedld2j2V5FC5VGrX6EMY1NdXDEK8N1Xb36Dvvd3a/Au7YaKhslhVGoqqVNdtO6fHx4rh7Vy4EVesn/Ze6AD25AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTWFpYPZrpBzBYmq6MeojUupPtSnvVJrhdu1/d5FylTdNWQ062JpV4zpUpzp1KNR1Zbqkox+bfDiusn5NdxEvVfxAcoxmGodGOPoVa+5iOufV0d700uq1Uba+hPW/qov7Y7L1lWzGHpLlDe431m3N2dlpeRrrk+zMcdtPQp1K+ElCeIjGcY11vyjKp2opaO7V1obRRioxSWiWiSIq95Jj6cgA9OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVN0+v/xcItOGJertwhTLZKh/SBV6WD1S7GL43/gp9yEistlYOO3GDd4/tdP1o/Ty8Tas1T2ago7a4N70f2ul/F/mJ+BtYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAp79IKS3MInf0MTwXfGH9i4Smv0g5WlhNE+xX43/AIH3PwEiuNnlH/GGEd5ftdLkv8xU8Taw1T2emv8AFWE0X7TT7/p63ibWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKZ6fpN4nDJO3zdV+kl+7q/2LmKU6e2nmuHTv+pqPT7FciRX+Rykto8K7/wDsQ9ZfTV/E2rNUco3Y55h3r+ug+X0uINriQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOrE4mGEoudWcYRXGU5KMVd2V29Fq0B2lKdOsn/ANaparSg+NuccT/YuviUb05SctpUt26WGhrrxfyy64+z3kSmEDy5tZtRd4/rY/w/SYg2uNT8KnHH03ucJp8+U8T4m2AhAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeJtBn8crtCCU6rV0n6MVycv7c7ciEZvmNbN8NKFeblTla8LRjDR3WiV3qk9W+B143EvF4ypUfGbcvL1V5Ky8jxK8JYihKNTE7kpRin1O7HcnBrrJQcruzc4Kzva67zLyZ7Xt8TyGljw1pX5jspjgtrMThlabjVX11uy+9FW96ZV/SVmcs5zmVWcEn1XVpRbtaCq248+2/eSaEpyxMt2pGcXJylFrWMFFx3YOPPfi9X9ZEH2uanjW0ou8Kurla9kvHxOuvkvNvMz1z2MdIr6iHm7lsSuy9JPn9bF+BtoajYtWctIev6/jjPE25L0KIACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVPiqPybEzg+MJSh912v52v5ngY/CdXV6yU4xi3NK7fGc6Ely7qM/wJ5tzgOoxyqpdmqt2X24rn7YpfcZFXQtSapzlT0hGKio7sVHlGLVldaeS7jIvH+PJMNWk+6RL5sDhHQ3pO0lKMkrN63qVZ/wBM153IRtBTcKsU07qnVi+wnwjTXFlidQnV3n2nvb8d6z3G47r3O5Wv9595FNocgq4utKpHq3HdqcXPe4Q5Ja8H+B017xF+zLxnpM05CJYtNqej/eful34s2zwWJjjMHCpDWM4xnH2SV18TWKhszVzKi5U3Qae8ruVXi3iLp6cVvq/mWxkG0NbJsDGmlGpFLRSut1891rlfWz7y5bYpWeTKpGveY7xZNSoqUbyaS727I6sPjKWKk1TnCbXFRkm17UuBWuZZxWzSfzjsuUY8Pz+Xc6spqSoZtRcNH1kIq3dKSTXsabRznbj1yIdI1Z89mVrAAtqgAAAAAAAAAAAAAAAAAAAAAAAAAAPL2mwqxmR1k+Ki6kftQ7S+FvY2VmWftHX+TZFXl9SUV9qS3Y/i0VbOdomdu89Qv6ffMs96zZxF3pr+b/iYXsc05fN+/wCMCpC5LO/L88ah171kcX+P+8zFuxMkMz3djcF8sz1Sa7NJdY+7eekF77v+Q8BO5OujyCWX1pc3U3X7FGLX9UveddevrJDjsW845SwAGsygAAAAAAAAAAAAAAAAAAAAAAAAA+fH4uOBwc6k+EU5P/ZLxfACJ7fZjdww8X/9an/BfF+SIazsxWKljMXOpP0pvefhfgvJWXkdDkY+bJ7v1r4cfinGTejOYawXn8YGD4M5jpFef9UDnV0lyuX55yMU7IOVrfnnI676ImSGaehKdgcxVDMpUpPSqrx+3G+nnG/3URNo5p1HSqqUXuyTUovukndP3nrHfxaLPGSnus1XYD4MjzOOb5ZCrHRvSa/hmvSX55NH3mxE9jsMiY5PJAASgAAAAAAAAAAAAAAAAAAAAACGdIeP3YUqCfpfOz9i0gvfd/ykzKu22rdbtLV+qoU17N1S+M37yvs25j/2761e5HjJnDehjFnx5xh54rL5QpNRk7WbbVtddUrmZEdnjTmeR19rejMovRef9USAYzK8ZhKbu5z8YTlL8OP4H00sfVdKF6dFXitGq6abrwhr2+HP82LVdaJ+Yt1WtszHxNU34/h8ZGC0RX7zis7WpUOXKu+LlxvV8H7zjD4fGZpVbgpwTt604QXLTebfxJnV5/bIja7/ACqwWzrfA8jZ/AVsvpTVaam2042nKVtLP0l7D12VrV5PInq1WZmOzHEm6P8AM3hc36lvs1k0vCpFNp+aTX3SyilcrquhmVGS9WpB+6SuXUX9S3ac/Gft15fv6AAtKoAAAAAAAAAAAAAAAAAAAAAFVbbw6naetf1lCa9m5GPxi/cWqQnpJyt1MPDExXofN1PsN3jL2KTf378ivs19Ud9a3nJ8oIpahy1R1wkHLtIzGo7u8wjFWehwpcQpWQCy3eBk3YwvocSd0Bne7G9Y607M4b1JH3ZLReLzqhBetUhf2JqUv9KZdJXvRtlDqYmWKkuzG9OlfnJ+nJexdm/jLuLCNHWpynf1m7V/V+R9AALKsAAAAAAAAAAAAAAAAAAAAABjUpqrTcZJNNOMk1dNPRpruMgBVm0+yFXKZyqUFKpR42V5TprukuMo/W9/e4oql2rF/Hj5psvg80m5VKUVJ6ucLwk33txtvedynk1ez2q5j2piOWU7Gehlfsk/r9G1Ft9XXqx+2oTXlZRZ8Vfo5rQg3DEQk7OylScbvkm1J29tjhOtkj6WI2cc/aGuWhzvaEww/RzWnSi6mIpwdryUaTnZ81vbyv7bHo4bo5pRa6yvVl9iMYX9t94RrZPxE7OP9V45qN7kk2b2RrZtUU6qlSo8W2rTmu6CfBfWflcn2WbNYTLJJ06Ud5cJTvOSfg5X3fKx653x6sR82cMm1M/FXVhsPDC4eMKcVGMUoxS4JI7QC4pgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//Z" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://cdn1.ntv.com.tr/gorsel/w5zs9UKNw02AabvlPvtJrQ.jpg?width=1060&height=795&mode=crop&scale=both&v=1598951357437&meta=square" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://www.do-re.com.tr/yamaha-gb1-akustik-kuyruklu-piyano-parlak-siyah-cce51c1f066f575b7d9a21f9f985bb02-12622d3632fb8eb8cb92c2028a5434e8-max-pp.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://cdn1.ntv.com.tr/gorsel/w5zs9UKNw02AabvlPvtJrQ.jpg?width=1060&height=795&mode=crop&scale=both&v=1598951357437&meta=square" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://www.do-re.com.tr/yamaha-gb1-akustik-kuyruklu-piyano-parlak-siyah-cce51c1f066f575b7d9a21f9f985bb02-12622d3632fb8eb8cb92c2028a5434e8-max-pp.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+                <img src="https://cdn1.ntv.com.tr/gorsel/w5zs9UKNw02AabvlPvtJrQ.jpg?width=1060&height=795&mode=crop&scale=both&v=1598951357437&meta=square" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="margin: 0;">Kuyruklu Piyano</h5>
+                  <p class="card-text" style="margin: 0;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, similique!
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-primary">Satın Al</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
